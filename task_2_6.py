@@ -24,6 +24,7 @@ for i in lst: # перебираем каждый элемент из списк
       lst_unique.append(i)
    elif i not in lst_repeat:
       lst_repeat.append(i)
+      
 print(lst_unique) 
 print(lst_repeat) 
 print(lst_not_dupl) 
