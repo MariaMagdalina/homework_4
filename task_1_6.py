@@ -8,8 +8,6 @@ a = set(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '=', '+', '-', '*', '
 for i in str_arifm:
    if i not in a:
       print('Неверное выражение') 
-      exit()
-   #else:
-      
+      exit()      
 print(eval(str_arifm))
       
